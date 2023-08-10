@@ -12,6 +12,6 @@ npm i nodemon --save
 npm start
 
 
-Techstack used: React JS, Express JS, Javascript.
+Techstack used: React JS, Express JS, Javascript, CSS, HTML.
 
 Tools / Frameworks: Open API
