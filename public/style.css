@@ -1,0 +1,82 @@
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    height:100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.article
+{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    width:100%;
+    height: 100%;
+    resize: none;
+    border: none;
+    border-radius: 8px;
+    background-color: bisque;
+    font-size: large;
+    box-sizing: border-box;
+    padding: 10px;
+    text-indent: 10px;
+    margin-top: 10px;
+    
+}
+.summary-txt{
+    height: 87.5%;
+    background: aquamarine;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: large;
+    box-sizing: border-box;
+    text-indent: 10px;
+    outline: none;
+}
+textarea:focus{
+    border-color:rgb(74, 74, 201);
+    outline: none;
+}
+#submit
+{
+    padding: 10px 20px;
+    background-color:rgb(93, 93, 234);
+    color: beige;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center;
+    font-weight: 600;
+    font-size: medium;
+    letter-spacing: 0.02cm;
+    margin-top: 10px;;
+}
+.words_count{
+    padding: 10px;
+    background-color:rgb(6, 6, 102);
+    color: white;
+    align-self: flex-start;
+    font-weight: 600;
+    font-size: medium;
+    letter-spacing: 0.02cm;
+}
+.summary-area
+{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+
+label{
+    color:white;
+    border-radius: 8px;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
